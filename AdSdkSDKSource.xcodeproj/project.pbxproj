@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F09F46714E7F134001C23E2 /* UIBarButtonItem+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F09F46514E7F134001C23E2 /* UIBarButtonItem+AdSdk.h */; };
+		0F09F46814E7F134001C23E2 /* UIBarButtonItem+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F09F46514E7F134001C23E2 /* UIBarButtonItem+AdSdk.h */; };
+		0F09F46914E7F134001C23E2 /* UIBarButtonItem+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F09F46614E7F134001C23E2 /* UIBarButtonItem+AdSdk.m */; };
+		0F09F46A14E7F134001C23E2 /* UIBarButtonItem+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F09F46614E7F134001C23E2 /* UIBarButtonItem+AdSdk.m */; };
+		0F0EB65C1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0EB65A1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h */; };
+		0F0EB65D1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0EB65A1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h */; };
+		0F0EB65E1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EB65B1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m */; };
+		0F0EB65F1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EB65B1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m */; };
+		0F13654C14FB83A40029C8AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F13654914FB838D0029C8AF /* QuartzCore.framework */; };
+		0F34E1BE14DBEF04000F8713 /* AdSdkToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F34E1BC14DBEF04000F8713 /* AdSdkToolBar.h */; };
+		0F34E1BF14DBEF04000F8713 /* AdSdkToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F34E1BC14DBEF04000F8713 /* AdSdkToolBar.h */; };
+		0F34E1C014DBEF04000F8713 /* AdSdkToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34E1BD14DBEF04000F8713 /* AdSdkToolBar.m */; };
+		0F34E1C114DBEF04000F8713 /* AdSdkToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34E1BD14DBEF04000F8713 /* AdSdkToolBar.m */; };
+		0F3B1919159456940035D3EF /* AdSdkVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3B1917159456940035D3EF /* AdSdkVideoPlayerViewController.h */; settings = {ATTRIBUTES = (); }; };
+		0F3B191A159456940035D3EF /* AdSdkVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B1918159456940035D3EF /* AdSdkVideoPlayerViewController.m */; };
+		0F3B191C159456A50035D3EF /* AdSdkVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3B1917159456940035D3EF /* AdSdkVideoPlayerViewController.h */; };
+		0F3B191D159456A50035D3EF /* AdSdkVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B1918159456940035D3EF /* AdSdkVideoPlayerViewController.m */; };
+		0F62B51A14E92D4A0027BCB8 /* UIImage+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62B51814E92D4A0027BCB8 /* UIImage+AdSdk.h */; };
+		0F62B51B14E92D4A0027BCB8 /* UIImage+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62B51914E92D4A0027BCB8 /* UIImage+AdSdk.m */; };
+		0F62B51F14E92E3D0027BCB8 /* NSBundle+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62B51D14E92E3D0027BCB8 /* NSBundle+AdSdk.h */; };
+		0F62B52014E92E3D0027BCB8 /* NSBundle+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62B51E14E92E3D0027BCB8 /* NSBundle+AdSdk.m */; };
+		0F62B52114E938B20027BCB8 /* NSBundle+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62B51D14E92E3D0027BCB8 /* NSBundle+AdSdk.h */; };
+		0F62B52214E938B40027BCB8 /* NSBundle+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62B51E14E92E3D0027BCB8 /* NSBundle+AdSdk.m */; };
+		0F62B52314E938B70027BCB8 /* UIImage+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F62B51814E92D4A0027BCB8 /* UIImage+AdSdk.h */; };
+		0F62B52414E938BA0027BCB8 /* UIImage+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62B51914E92D4A0027BCB8 /* UIImage+AdSdk.m */; };
+		0F66D50614F30E9400FD6569 /* UIButton+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F66D50414F30E9400FD6569 /* UIButton+AdSdk.h */; };
+		0F66D50714F30E9400FD6569 /* UIButton+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F66D50414F30E9400FD6569 /* UIButton+AdSdk.h */; };
+		0F66D50814F30E9400FD6569 /* UIButton+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66D50514F30E9400FD6569 /* UIButton+AdSdk.m */; };
+		0F66D50914F30E9400FD6569 /* UIButton+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66D50514F30E9400FD6569 /* UIButton+AdSdk.m */; };
+		0F6E4C5E152093D6000A1085 /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6E4C5C152093D6000A1085 /* OpenUDID.h */; };
+		0F6E4C5F152093D6000A1085 /* OpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6E4C5C152093D6000A1085 /* OpenUDID.h */; };
+		0F6E4C60152093D6000A1085 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E4C5D152093D6000A1085 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0F6E4C61152093D6000A1085 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6E4C5D152093D6000A1085 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0F7CA22214E34396001FC119 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A746A63914B9DD110019992F /* UIKit.framework */; };
+		0FCEB209150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCEB206150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FCEB20A150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCEB206150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FCEB20B150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEB207150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m */; };
+		0FCEB20C150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEB207150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m */; };
+		0FE28D7614E34B3000CEA1CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE28D7414E34B1600CEA1CD /* MediaPlayer.framework */; };
+		A7992E8F1489362800E86AC8 /* DTXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E761489362800E86AC8 /* DTXMLDocument.h */; };
+		A7992E911489362800E86AC8 /* DTXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E771489362800E86AC8 /* DTXMLDocument.m */; };
+		A7992E931489362800E86AC8 /* DTXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E781489362800E86AC8 /* DTXMLElement.h */; };
+		A7992E951489362800E86AC8 /* DTXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E791489362800E86AC8 /* DTXMLElement.m */; };
+		A7992E971489362800E86AC8 /* AdSdkAdBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E7A1489362800E86AC8 /* AdSdkAdBrowserViewController.h */; settings = {ATTRIBUTES = (); }; };
+		A7992E991489362800E86AC8 /* AdSdkAdBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E7B1489362800E86AC8 /* AdSdkAdBrowserViewController.m */; };
+		A7992E9B1489362800E86AC8 /* AdSdkBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E7C1489362800E86AC8 /* AdSdkBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7992E9D1489362800E86AC8 /* AdSdkBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E7D1489362800E86AC8 /* AdSdkBannerView.m */; };
+		A7992EA31489362800E86AC8 /* NSString+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E801489362800E86AC8 /* NSString+AdSdk.h */; };
+		A7992EA51489362800E86AC8 /* NSString+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E811489362800E86AC8 /* NSString+AdSdk.m */; };
+		A7992EA71489362800E86AC8 /* NSURL+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E821489362800E86AC8 /* NSURL+AdSdk.h */; };
+		A7992EA91489362800E86AC8 /* NSURL+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E831489362800E86AC8 /* NSURL+AdSdk.m */; };
+		A7992EAB1489362800E86AC8 /* RedirectChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E841489362800E86AC8 /* RedirectChecker.h */; };
+		A7992EAD1489362800E86AC8 /* RedirectChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E851489362800E86AC8 /* RedirectChecker.m */; };
+		A7992EAF1489362800E86AC8 /* UIView+FindViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E861489362800E86AC8 /* UIView+FindViewController.h */; };
+		A7992EB11489362800E86AC8 /* UIView+FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E871489362800E86AC8 /* UIView+FindViewController.m */; };
+		A7992EBC148936E400E86AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7992EBB148936E400E86AC8 /* Foundation.framework */; };
+		A7992EC81489373000E86AC8 /* NSString+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E801489362800E86AC8 /* NSString+AdSdk.h */; };
+		A7992EC91489373000E86AC8 /* NSString+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E811489362800E86AC8 /* NSString+AdSdk.m */; };
+		A7992ECA1489373000E86AC8 /* NSURL+AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E821489362800E86AC8 /* NSURL+AdSdk.h */; };
+		A7992ECB1489373000E86AC8 /* NSURL+AdSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E831489362800E86AC8 /* NSURL+AdSdk.m */; };
+		A7992ECC1489373000E86AC8 /* RedirectChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E841489362800E86AC8 /* RedirectChecker.h */; };
+		A7992ECD1489373000E86AC8 /* RedirectChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E851489362800E86AC8 /* RedirectChecker.m */; };
+		A7992ECE1489373000E86AC8 /* UIView+FindViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E861489362800E86AC8 /* UIView+FindViewController.h */; };
+		A7992ECF1489373000E86AC8 /* UIView+FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E871489362800E86AC8 /* UIView+FindViewController.m */; };
+		A7992ED01489373000E86AC8 /* DTXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E761489362800E86AC8 /* DTXMLDocument.h */; };
+		A7992ED11489373000E86AC8 /* DTXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E771489362800E86AC8 /* DTXMLDocument.m */; };
+		A7992ED21489373000E86AC8 /* DTXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E781489362800E86AC8 /* DTXMLElement.h */; };
+		A7992ED31489373000E86AC8 /* DTXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E791489362800E86AC8 /* DTXMLElement.m */; };
+		A7992ED41489373000E86AC8 /* AdSdkAdBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E7A1489362800E86AC8 /* AdSdkAdBrowserViewController.h */; };
+		A7992ED51489373000E86AC8 /* AdSdkAdBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E7B1489362800E86AC8 /* AdSdkAdBrowserViewController.m */; };
+		A7992ED61489373000E86AC8 /* AdSdkBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E7C1489362800E86AC8 /* AdSdkBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7992ED71489373000E86AC8 /* AdSdkBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7992E7D1489362800E86AC8 /* AdSdkBannerView.m */; };
+		A7CDEF53148E76F100DD6D84 /* AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E741489362800E86AC8 /* AdSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7CDEF55148E76F200DD6D84 /* AdSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = A7992E741489362800E86AC8 /* AdSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F09F46514E7F134001C23E2 /* UIBarButtonItem+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AdSdk.h"; sourceTree = "<group>"; };
+		0F09F46614E7F134001C23E2 /* UIBarButtonItem+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AdSdk.m"; sourceTree = "<group>"; };
+		0F0EB65A1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		0F0EB65B1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		0F13654914FB838D0029C8AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F34E1BC14DBEF04000F8713 /* AdSdkToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkToolBar.h; sourceTree = "<group>"; };
+		0F34E1BD14DBEF04000F8713 /* AdSdkToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkToolBar.m; sourceTree = "<group>"; };
+		0F3B1917159456940035D3EF /* AdSdkVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkVideoPlayerViewController.h; sourceTree = "<group>"; };
+		0F3B1918159456940035D3EF /* AdSdkVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkVideoPlayerViewController.m; sourceTree = "<group>"; };
+		0F62B51814E92D4A0027BCB8 /* UIImage+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AdSdk.h"; sourceTree = "<group>"; };
+		0F62B51914E92D4A0027BCB8 /* UIImage+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AdSdk.m"; sourceTree = "<group>"; };
+		0F62B51D14E92E3D0027BCB8 /* NSBundle+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AdSdk.h"; sourceTree = "<group>"; };
+		0F62B51E14E92E3D0027BCB8 /* NSBundle+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AdSdk.m"; sourceTree = "<group>"; };
+		0F6451531502309A00922DA3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F66D50414F30E9400FD6569 /* UIButton+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AdSdk.h"; sourceTree = "<group>"; };
+		0F66D50514F30E9400FD6569 /* UIButton+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AdSdk.m"; sourceTree = "<group>"; };
+		0F6E4C5C152093D6000A1085 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		0F6E4C5D152093D6000A1085 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		0FCEB206150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkVideoInterstitialViewController.h; sourceTree = "<group>"; };
+		0FCEB207150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkVideoInterstitialViewController.m; sourceTree = "<group>"; };
+		0FE28D7414E34B1600CEA1CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A746A63914B9DD110019992F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7992E5A1489342100E86AC8 /* AdSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7992E721489362800E86AC8 /* AdSdkSDKSource-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AdSdkSDKSource-Info.plist"; sourceTree = "<group>"; };
+		A7992E731489362800E86AC8 /* AdSdkSDKSource-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AdSdkSDKSource-Prefix.pch"; sourceTree = "<group>"; };
+		A7992E741489362800E86AC8 /* AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdk.h; sourceTree = "<group>"; };
+		A7992E761489362800E86AC8 /* DTXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTXMLDocument.h; sourceTree = "<group>"; };
+		A7992E771489362800E86AC8 /* DTXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTXMLDocument.m; sourceTree = "<group>"; };
+		A7992E781489362800E86AC8 /* DTXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTXMLElement.h; sourceTree = "<group>"; };
+		A7992E791489362800E86AC8 /* DTXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTXMLElement.m; sourceTree = "<group>"; };
+		A7992E7A1489362800E86AC8 /* AdSdkAdBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkAdBrowserViewController.h; sourceTree = "<group>"; };
+		A7992E7B1489362800E86AC8 /* AdSdkAdBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkAdBrowserViewController.m; sourceTree = "<group>"; };
+		A7992E7C1489362800E86AC8 /* AdSdkBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdSdkBannerView.h; sourceTree = "<group>"; };
+		A7992E7D1489362800E86AC8 /* AdSdkBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdSdkBannerView.m; sourceTree = "<group>"; };
+		A7992E801489362800E86AC8 /* NSString+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AdSdk.h"; sourceTree = "<group>"; };
+		A7992E811489362800E86AC8 /* NSString+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdSdk.m"; sourceTree = "<group>"; };
+		A7992E821489362800E86AC8 /* NSURL+AdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+AdSdk.h"; sourceTree = "<group>"; };
+		A7992E831489362800E86AC8 /* NSURL+AdSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AdSdk.m"; sourceTree = "<group>"; };
+		A7992E841489362800E86AC8 /* RedirectChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedirectChecker.h; sourceTree = "<group>"; };
+		A7992E851489362800E86AC8 /* RedirectChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedirectChecker.m; sourceTree = "<group>"; };
+		A7992E861489362800E86AC8 /* UIView+FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindViewController.h"; sourceTree = "<group>"; };
+		A7992E871489362800E86AC8 /* UIView+FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindViewController.m"; sourceTree = "<group>"; };
+		A7992EB9148936E400E86AC8 /* libAdSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAdSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7992EBB148936E400E86AC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7992E551489342100E86AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7992EB6148936E400E86AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7992EBC148936E400E86AC8 /* Foundation.framework in Frameworks */,
+				0F7CA22214E34396001FC119 /* UIKit.framework in Frameworks */,
+				0FE28D7614E34B3000CEA1CD /* MediaPlayer.framework in Frameworks */,
+				0F13654C14FB83A40029C8AF /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F09F48714E923B1001C23E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7992E711489362800E86AC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A7992E721489362800E86AC8 /* AdSdkSDKSource-Info.plist */,
+				A7992E731489362800E86AC8 /* AdSdkSDKSource-Prefix.pch */,
+				A7992E741489362800E86AC8 /* AdSdk.h */,
+				A7992E751489362800E86AC8 /* Source */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A7992E751489362800E86AC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A7992EB41489363E00E86AC8 /* Helpers */,
+				A7992EB31489363000E86AC8 /* DTXML */,
+				A7992E7A1489362800E86AC8 /* AdSdkAdBrowserViewController.h */,
+				A7992E7B1489362800E86AC8 /* AdSdkAdBrowserViewController.m */,
+				A7992E7C1489362800E86AC8 /* AdSdkBannerView.h */,
+				A7992E7D1489362800E86AC8 /* AdSdkBannerView.m */,
+				0FCEB206150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h */,
+				0FCEB207150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m */,
+				0F3B1917159456940035D3EF /* AdSdkVideoPlayerViewController.h */,
+				0F3B1918159456940035D3EF /* AdSdkVideoPlayerViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A7992EB31489363000E86AC8 /* DTXML */ = {
+			isa = PBXGroup;
+			children = (
+				A7992E761489362800E86AC8 /* DTXMLDocument.h */,
+				A7992E771489362800E86AC8 /* DTXMLDocument.m */,
+				A7992E781489362800E86AC8 /* DTXMLElement.h */,
+				A7992E791489362800E86AC8 /* DTXMLElement.m */,
+			);
+			name = DTXML;
+			sourceTree = "<group>";
+		};
+		A7992EB41489363E00E86AC8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E4C5C152093D6000A1085 /* OpenUDID.h */,
+				0F6E4C5D152093D6000A1085 /* OpenUDID.m */,
+				0F0EB65A1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h */,
+				0F0EB65B1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m */,
+				A7992E801489362800E86AC8 /* NSString+AdSdk.h */,
+				A7992E811489362800E86AC8 /* NSString+AdSdk.m */,
+				A7992E821489362800E86AC8 /* NSURL+AdSdk.h */,
+				A7992E831489362800E86AC8 /* NSURL+AdSdk.m */,
+				A7992E841489362800E86AC8 /* RedirectChecker.h */,
+				A7992E851489362800E86AC8 /* RedirectChecker.m */,
+				A7992E861489362800E86AC8 /* UIView+FindViewController.h */,
+				A7992E871489362800E86AC8 /* UIView+FindViewController.m */,
+				0F34E1BC14DBEF04000F8713 /* AdSdkToolBar.h */,
+				0F34E1BD14DBEF04000F8713 /* AdSdkToolBar.m */,
+				0F09F46514E7F134001C23E2 /* UIBarButtonItem+AdSdk.h */,
+				0F09F46614E7F134001C23E2 /* UIBarButtonItem+AdSdk.m */,
+				0F62B51D14E92E3D0027BCB8 /* NSBundle+AdSdk.h */,
+				0F62B51E14E92E3D0027BCB8 /* NSBundle+AdSdk.m */,
+				0F62B51814E92D4A0027BCB8 /* UIImage+AdSdk.h */,
+				0F62B51914E92D4A0027BCB8 /* UIImage+AdSdk.m */,
+				0F66D50414F30E9400FD6569 /* UIButton+AdSdk.h */,
+				0F66D50514F30E9400FD6569 /* UIButton+AdSdk.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A7992EBA148936E400E86AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A746A63914B9DD110019992F /* UIKit.framework */,
+				A7992EBB148936E400E86AC8 /* Foundation.framework */,
+				0F6451531502309A00922DA3 /* CoreLocation.framework */,
+				0F13654914FB838D0029C8AF /* QuartzCore.framework */,
+				0FE28D7414E34B1600CEA1CD /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7CFC65E13C1DB0C006C0DF4 = {
+			isa = PBXGroup;
+			children = (
+				A7992E711489362800E86AC8 /* Core */,
+				A7992EBA148936E400E86AC8 /* Frameworks */,
+				0F09F48714E923B1001C23E2 /* Resources */,
+				A7CFC66C13C1DB0C006C0DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7CFC66C13C1DB0C006C0DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7992E5A1489342100E86AC8 /* AdSdk.framework */,
+				A7992EB9148936E400E86AC8 /* libAdSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7992E561489342100E86AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDEF55148E76F200DD6D84 /* AdSdk.h in Headers */,
+				0FCEB209150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h in Headers */,
+				A7992E8F1489362800E86AC8 /* DTXMLDocument.h in Headers */,
+				A7992E931489362800E86AC8 /* DTXMLElement.h in Headers */,
+				A7992E971489362800E86AC8 /* AdSdkAdBrowserViewController.h in Headers */,
+				A7992E9B1489362800E86AC8 /* AdSdkBannerView.h in Headers */,
+				A7992EA31489362800E86AC8 /* NSString+AdSdk.h in Headers */,
+				A7992EA71489362800E86AC8 /* NSURL+AdSdk.h in Headers */,
+				A7992EAB1489362800E86AC8 /* RedirectChecker.h in Headers */,
+				A7992EAF1489362800E86AC8 /* UIView+FindViewController.h in Headers */,
+				0F34E1BE14DBEF04000F8713 /* AdSdkToolBar.h in Headers */,
+				0F09F46714E7F134001C23E2 /* UIBarButtonItem+AdSdk.h in Headers */,
+				0F62B51A14E92D4A0027BCB8 /* UIImage+AdSdk.h in Headers */,
+				0F62B51F14E92E3D0027BCB8 /* NSBundle+AdSdk.h in Headers */,
+				0F66D50614F30E9400FD6569 /* UIButton+AdSdk.h in Headers */,
+				0F0EB65C1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h in Headers */,
+				0F6E4C5E152093D6000A1085 /* OpenUDID.h in Headers */,
+				0F3B1919159456940035D3EF /* AdSdkVideoPlayerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7992EB7148936E400E86AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDEF53148E76F100DD6D84 /* AdSdk.h in Headers */,
+				0FCEB20A150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.h in Headers */,
+				A7992EC81489373000E86AC8 /* NSString+AdSdk.h in Headers */,
+				A7992ECA1489373000E86AC8 /* NSURL+AdSdk.h in Headers */,
+				A7992ECC1489373000E86AC8 /* RedirectChecker.h in Headers */,
+				A7992ECE1489373000E86AC8 /* UIView+FindViewController.h in Headers */,
+				A7992ED01489373000E86AC8 /* DTXMLDocument.h in Headers */,
+				A7992ED21489373000E86AC8 /* DTXMLElement.h in Headers */,
+				A7992ED41489373000E86AC8 /* AdSdkAdBrowserViewController.h in Headers */,
+				A7992ED61489373000E86AC8 /* AdSdkBannerView.h in Headers */,
+				0F34E1BF14DBEF04000F8713 /* AdSdkToolBar.h in Headers */,
+				0F09F46814E7F134001C23E2 /* UIBarButtonItem+AdSdk.h in Headers */,
+				0F62B52114E938B20027BCB8 /* NSBundle+AdSdk.h in Headers */,
+				0F62B52314E938B70027BCB8 /* UIImage+AdSdk.h in Headers */,
+				0F66D50714F30E9400FD6569 /* UIButton+AdSdk.h in Headers */,
+				0F0EB65D1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.h in Headers */,
+				0F6E4C5F152093D6000A1085 /* OpenUDID.h in Headers */,
+				0F3B191C159456A50035D3EF /* AdSdkVideoPlayerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7992E591489342100E86AC8 /* Universal Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7992E621489342100E86AC8 /* Build configuration list for PBXNativeTarget "Universal Framework" */;
+			buildPhases = (
+				A7992E531489342100E86AC8 /* ShellScript */,
+				A7992E541489342100E86AC8 /* Sources */,
+				A7992E551489342100E86AC8 /* Frameworks */,
+				A7992E561489342100E86AC8 /* Headers */,
+				A7992E571489342100E86AC8 /* Resources */,
+				A7992E581489342100E86AC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Universal Framework";
+			productName = AdSdk;
+			productReference = A7992E5A1489342100E86AC8 /* AdSdk.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A7992EB8148936E400E86AC8 /* Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7992EC3148936E400E86AC8 /* Build configuration list for PBXNativeTarget "Static Library" */;
+			buildPhases = (
+				A7992EB5148936E400E86AC8 /* Sources */,
+				A7992EB6148936E400E86AC8 /* Frameworks */,
+				A7992EB7148936E400E86AC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Static Library";
+			productName = DTAdSdk;
+			productReference = A7992EB9148936E400E86AC8 /* libAdSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7CFC66013C1DB0C006C0DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A7CFC66313C1DB0C006C0DF4 /* Build configuration list for PBXProject "AdSdkSDKSource" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7CFC65E13C1DB0C006C0DF4;
+			productRefGroup = A7CFC66C13C1DB0C006C0DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7992E591489342100E86AC8 /* Universal Framework */,
+				A7992EB8148936E400E86AC8 /* Static Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7992E571489342100E86AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7992E531489342100E86AC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		A7992E581489342100E86AC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sf A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sf A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sf Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sf Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sf Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sf Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sf \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sf \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sf \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7992E541489342100E86AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7992E911489362800E86AC8 /* DTXMLDocument.m in Sources */,
+				A7992E951489362800E86AC8 /* DTXMLElement.m in Sources */,
+				A7992E991489362800E86AC8 /* AdSdkAdBrowserViewController.m in Sources */,
+				A7992E9D1489362800E86AC8 /* AdSdkBannerView.m in Sources */,
+				A7992EA51489362800E86AC8 /* NSString+AdSdk.m in Sources */,
+				A7992EA91489362800E86AC8 /* NSURL+AdSdk.m in Sources */,
+				A7992EAD1489362800E86AC8 /* RedirectChecker.m in Sources */,
+				A7992EB11489362800E86AC8 /* UIView+FindViewController.m in Sources */,
+				0F34E1C014DBEF04000F8713 /* AdSdkToolBar.m in Sources */,
+				0F09F46914E7F134001C23E2 /* UIBarButtonItem+AdSdk.m in Sources */,
+				0F62B51B14E92D4A0027BCB8 /* UIImage+AdSdk.m in Sources */,
+				0F62B52014E92E3D0027BCB8 /* NSBundle+AdSdk.m in Sources */,
+				0F66D50814F30E9400FD6569 /* UIButton+AdSdk.m in Sources */,
+				0F0EB65E1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m in Sources */,
+				0FCEB20B150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m in Sources */,
+				0F6E4C60152093D6000A1085 /* OpenUDID.m in Sources */,
+				0F3B191A159456940035D3EF /* AdSdkVideoPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7992EB5148936E400E86AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7992EC91489373000E86AC8 /* NSString+AdSdk.m in Sources */,
+				A7992ECB1489373000E86AC8 /* NSURL+AdSdk.m in Sources */,
+				A7992ECD1489373000E86AC8 /* RedirectChecker.m in Sources */,
+				A7992ECF1489373000E86AC8 /* UIView+FindViewController.m in Sources */,
+				A7992ED11489373000E86AC8 /* DTXMLDocument.m in Sources */,
+				A7992ED31489373000E86AC8 /* DTXMLElement.m in Sources */,
+				A7992ED51489373000E86AC8 /* AdSdkAdBrowserViewController.m in Sources */,
+				A7992ED71489373000E86AC8 /* AdSdkBannerView.m in Sources */,
+				0F34E1C114DBEF04000F8713 /* AdSdkToolBar.m in Sources */,
+				0F09F46A14E7F134001C23E2 /* UIBarButtonItem+AdSdk.m in Sources */,
+				0F62B52214E938B40027BCB8 /* NSBundle+AdSdk.m in Sources */,
+				0F62B52414E938BA0027BCB8 /* UIImage+AdSdk.m in Sources */,
+				0F66D50914F30E9400FD6569 /* UIButton+AdSdk.m in Sources */,
+				0F0EB65F1503B40D00EEC4C3 /* UIDevice+IdentifierAddition.m in Sources */,
+				0FCEB20C150EBF9C00BD5BD3 /* AdSdkVideoInterstitialViewController.m in Sources */,
+				0F6E4C61152093D6000A1085 /* OpenUDID.m in Sources */,
+				0F3B191D159456A50035D3EF /* AdSdkVideoPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7992E631489342100E86AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core/AdSdkSDKSource-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Core/AdSdkSDKSource-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = AdSdk;
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A7992E641489342100E86AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core/AdSdkSDKSource-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Core/AdSdkSDKSource-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = AdSdk;
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A7992EC4148936E400E86AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core/AdSdkSDKSource-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AdSdk;
+				PUBLIC_HEADERS_FOLDER_PATH = AdSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A7992EC5148936E400E86AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core/AdSdkSDKSource-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AdSdk;
+				PUBLIC_HEADERS_FOLDER_PATH = AdSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7CFC67613C1DB0C006C0DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		A7CFC67713C1DB0C006C0DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7992E621489342100E86AC8 /* Build configuration list for PBXNativeTarget "Universal Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7992E631489342100E86AC8 /* Debug */,
+				A7992E641489342100E86AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7992EC3148936E400E86AC8 /* Build configuration list for PBXNativeTarget "Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7992EC4148936E400E86AC8 /* Debug */,
+				A7992EC5148936E400E86AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CFC66313C1DB0C006C0DF4 /* Build configuration list for PBXProject "AdSdkSDKSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CFC67613C1DB0C006C0DF4 /* Debug */,
+				A7CFC67713C1DB0C006C0DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7CFC66013C1DB0C006C0DF4 /* Project object */;
+}

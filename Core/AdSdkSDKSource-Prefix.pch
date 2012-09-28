@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'AdSdk' target in the 'AdSdk' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
+
+#define SDK_VERSION @"4.0.0"
