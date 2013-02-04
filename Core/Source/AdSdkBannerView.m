@@ -159,6 +159,7 @@ NSString * const AdSdkErrorDomain = @"AdSdk";
 
 - (void)hideStatusBar
 {
+    return;
 	UIApplication *app = [UIApplication sharedApplication];
 	
 	if (!app.statusBarHidden)
