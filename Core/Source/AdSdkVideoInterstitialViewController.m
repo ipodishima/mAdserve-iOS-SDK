@@ -3432,6 +3432,8 @@ static float animationDuration = 0.50;
         return;
     }
 
+    return;
+    
     UIApplication *app = [UIApplication sharedApplication];
 	
 	if (!app.statusBarHidden)
